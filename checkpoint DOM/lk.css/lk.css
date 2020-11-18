@@ -1,0 +1,12 @@
+function somme(){
+    let P = document.querySelectorAll('price');  
+    let T = document.querySelectorAll('TOT');
+    let S=0;
+    for ( let i=0; i < P.length ; i++){
+      S+=  T[i].innerText * P[i].innerText
+      return S
+      console.log(s)
+    }
+    document.getElementById('sum').innerHTML = S;
+}
+s += productPrice[i].innerHTML * productQuantity[i].innerhtml;
